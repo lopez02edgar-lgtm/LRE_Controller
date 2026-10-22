@@ -5,10 +5,9 @@
 	(uuid "9a7c4c49-5f99-4bc1-940d-9143e2704751")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "436500201:436500201"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -16,26 +15,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 4.1656 5.3086 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
+			(property "Value" "436500201"
+				(at 4.8006 -1.0414 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "436500201:CONN_SD-43650-001_02_MOL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -44,6 +45,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -57,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Conn Power HDR 2 POS 3mm Solder RA Thru-Hole 2 Terminal 1 Port Micro-Fit 3.0™ Tray"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -66,19 +68,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
+			(property "MF" "Molex"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -87,9 +80,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "Package" "None"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -98,12 +92,97 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "Conn_01x02_Socket_1_1"
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "436500201"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MFR_NAME" "Molex Connector Corporation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" "436500201"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "436500201_0_0"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 5.08 2.54) (xy 5.08 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -115,7 +194,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -125,10 +204,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -137,10 +216,82 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8382)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8382)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.7018)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3782)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -150,37 +301,37 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1984,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 128.27) (xy 66.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1761a6c1-f9cf-43bc-8a48-65c591ba00fd")
+	)
+	(wire
+		(pts
 			(xy 64.77 46.99) (xy 72.39 46.99)
 		)
 		(stroke
@@ -2064,16 +2225,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 110.49) (xy 46.99 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6734492a-5d23-4c8d-a782-537b380dfa9b")
-	)
-	(wire
-		(pts
 			(xy 41.91 80.01) (xy 49.53 80.01)
 		)
 		(stroke
@@ -2084,17 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 124.46) (xy 45.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8017bc28-8a5e-46fd-8c23-3854b61b0889")
-	)
-	(wire
-		(pts
-			(xy 35.56 107.95) (xy 48.26 107.95)
+			(xy 54.61 111.76) (xy 67.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 121.92) (xy 45.72 120.65)
+			(xy 66.04 128.27) (xy 66.04 127)
 		)
 		(stroke
 			(width 0)
@@ -2174,13 +2315,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 124.46) (xy 45.72 125.73)
+			(xy 66.04 130.81) (xy 66.04 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a7e220d1-bf44-4c74-aadd-2e2137f8e9e4")
+	)
+	(wire
+		(pts
+			(xy 54.61 130.81) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5fc104-9a23-4793-8b74-aaf17e8cb295")
 	)
 	(wire
 		(pts
@@ -2244,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 110.49) (xy 46.99 111.76)
+			(xy 66.04 114.3) (xy 66.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2261,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "d3671b02-5d05-435c-8c46-d834197cc0c8")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 66.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c84f4b-46bc-4f8a-8a8c-ff6c515124dd")
 	)
 	(wire
 		(pts
@@ -2282,18 +2443,8 @@
 		)
 		(uuid "eb7dc2b2-6904-4455-8f92-cab53c76be61")
 	)
-	(wire
-		(pts
-			(xy 48.26 121.92) (xy 45.72 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f83a5fd8-eb38-40a9-87ed-e5a4e06c6eb9")
-	)
 	(label "Transducer+"
-		(at 35.56 107.95 0)
+		(at 54.61 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2476,6 +2627,196 @@
 		)
 	)
 	(symbol
+		(lib_id "436500201:436500201")
+		(at 54.61 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ef0d53d-b691-4361-8c65-3cca985f9314")
+		(property "Reference" "J12"
+			(at 45.72 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "436500201"
+			(at 45.72 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "436500201:CONN_SD-43650-001_02_MOL"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Conn Power HDR 2 POS 3mm Solder RA Thru-Hole 2 Terminal 1 Port Micro-Fit 3.0™ Tray"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Molex"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=eda"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=snap"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "436500201"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "436500201"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5bf60ad9-85ab-4876-b22d-7617b723b8b3")
+		)
+		(pin "2"
+			(uuid "25d6ba57-face-4b8b-b5f0-52761076ed5c")
+		)
+		(instances
+			(project "LRE_Controller"
+				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 85.09 54.61 0)
 		(unit 1)
@@ -2573,7 +2914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 125.73 0)
+		(at 66.04 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2584,7 +2925,7 @@
 		(fields_autoplaced yes)
 		(uuid "65e77161-6a70-4b23-aa55-6d601f99e0e0")
 		(property "Reference" "#PWR025"
-			(at 45.72 132.08 0)
+			(at 66.04 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,7 +2936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 130.81 0)
+			(at 66.04 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +2947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 125.73 0)
+			(at 66.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,7 +2958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 125.73 0)
+			(at 66.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,7 +2969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 125.73 0)
+			(at 66.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +3152,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 111.76 0)
+		(at 66.04 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2822,7 +3163,7 @@
 		(fields_autoplaced yes)
 		(uuid "84104e57-50d9-4ead-9ca0-efbf21d7ffa7")
 		(property "Reference" "#PWR043"
-			(at 46.99 118.11 0)
+			(at 66.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +3174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 116.84 0)
+			(at 66.04 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2844,7 +3185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 111.76 0)
+			(at 66.04 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2855,7 +3196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 111.76 0)
+			(at 66.04 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2866,7 +3207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 111.76 0)
+			(at 66.04 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,8 +3230,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 53.34 107.95 0)
+		(lib_id "436500201:436500201")
+		(at 54.61 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2899,31 +3240,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2814b59-3681-419a-a87e-fc246c1b280d")
-		(property "Reference" "J5"
-			(at 54.61 107.9499 0)
+		(uuid "93322cd1-56f9-4dd8-9245-2544e5901883")
+		(property "Reference" "J11"
+			(at 45.72 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 54.61 110.4899 0)
+		(property "Value" "436500201"
+			(at 45.72 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 107.95 0)
+		(property "Footprint" "436500201:CONN_SD-43650-001_02_MOL"
+			(at 54.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,10 +3270,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 107.95 0)
+			(at 54.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,8 +3284,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 107.95 0)
+		(property "Description" "Conn Power HDR 2 POS 3mm Solder RA Thru-Hole 2 Terminal 1 Port Micro-Fit 3.0™ Tray"
+			(at 54.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,18 +3293,127 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "2"
-			(uuid "ddc07b2f-2093-49ea-a05d-65da2b51b663")
+		(property "MF" "Molex"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=eda"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=snap"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "436500201"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "436500201"
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "1"
-			(uuid "2a0c7dbb-8312-46ed-a3e8-e83176915c70")
+			(uuid "4f13436a-0342-4d73-89e8-7ca89d89a917")
+		)
+		(pin "2"
+			(uuid "1f9d84c2-af87-4dcf-91b5-4af163fddd7f")
 		)
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3054,7 +3503,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 45.72 120.65 0)
+		(at 66.04 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3065,7 +3514,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddf7b674-8ef7-45f0-9ce8-b75b17e512be")
 		(property "Reference" "#PWR024"
-			(at 45.72 124.46 0)
+			(at 66.04 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3525,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 45.72 115.57 0)
+			(at 66.04 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3086,7 +3535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 120.65 0)
+			(at 66.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3097,7 +3546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 120.65 0)
+			(at 66.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 45.72 120.65 0)
+			(at 66.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,88 +3653,6 @@
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 53.34 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5369ff0-cc8b-48ca-ac96-a225e3493031")
-		(property "Reference" "J6"
-			(at 54.61 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 54.61 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70a6d39a-6154-42be-9761-74cb92ec08d5")
-		)
-		(pin "1"
-			(uuid "3932eb5e-63b8-450d-a832-1e32e50b19d6")
-		)
-		(instances
-			(project "LRE_Controller"
-				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "J6")
 					(unit 1)
 				)
 			)
