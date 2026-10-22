@@ -10104,6 +10104,52 @@
 		)
 	)
 	(sheet
+		(at 184.15 87.63)
+		(size 25.4 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "da4b7737-deb5-4fbc-ad19-e04d203acb2e")
+		(property "Sheetname" "solenoid_valves"
+			(at 184.15 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid_valves.kicad_sch"
+			(at 184.15 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LRE_Controller"
+				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 136.525 79.375)
 		(size 21.59 31.115)
 		(exclude_from_sim no)
@@ -10139,6 +10185,13 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(instances
+			(project "LRE_Controller"
+				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1"
+					(page "5")
+				)
 			)
 		)
 	)
