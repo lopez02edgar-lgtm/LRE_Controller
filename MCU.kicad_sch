@@ -3963,7 +3963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABS07-32.768KHZ-T:XTAL_ABS07-32.768KHZ-T"
+		(property "Footprint" "Library:XTAL_ABS07-32.768KHZ-T"
 			(at 78.74 78.74 0)
 			(hide yes)
 			(show_name no)
