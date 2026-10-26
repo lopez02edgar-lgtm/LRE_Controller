@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "9a7c4c49-5f99-4bc1-940d-9143e2704751")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "436500201:436500201"
 			(pin_names
@@ -2135,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 128.27) (xy 66.04 128.27)
+			(xy 146.05 66.04) (xy 157.48 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2235,16 +2235,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 111.76) (xy 67.31 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7396ae-10d5-436d-8a68-edae3b0e0f02")
-	)
-	(wire
-		(pts
 			(xy 85.09 49.53) (xy 85.09 39.37)
 		)
 		(stroke
@@ -2255,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 66.04 127)
+			(xy 157.48 66.04) (xy 157.48 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2315,7 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 130.81) (xy 66.04 132.08)
+			(xy 157.48 68.58) (xy 157.48 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.81) (xy 66.04 130.81)
+			(xy 146.05 68.58) (xy 157.48 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2375,6 +2365,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 49.53) (xy 146.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd88181d-7cdb-4665-9b58-86486b0024a8")
+	)
+	(wire
+		(pts
 			(xy 49.53 80.01) (xy 49.53 81.28)
 		)
 		(stroke
@@ -2395,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 114.3) (xy 66.04 115.57)
+			(xy 157.48 52.07) (xy 157.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 114.3) (xy 66.04 114.3)
+			(xy 146.05 52.07) (xy 157.48 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2444,12 +2444,12 @@
 		(uuid "eb7dc2b2-6904-4455-8f92-cab53c76be61")
 	)
 	(label "Transducer+"
-		(at 54.61 111.76 0)
+		(at 158.75 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2600932d-37af-4bf6-9aa4-a9cd7af1fd83")
 	)
@@ -2513,7 +2513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06481b42-d04c-4d8d-97f4-cb607665d7b2")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 49.53 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2620,7 +2620,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2628,7 +2628,7 @@
 	)
 	(symbol
 		(lib_id "436500201:436500201")
-		(at 54.61 130.81 180)
+		(at 146.05 68.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2638,8 +2638,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ef0d53d-b691-4361-8c65-3cca985f9314")
-		(property "Reference" "J12"
-			(at 45.72 120.65 0)
+		(property "Reference" "J3"
+			(at 137.16 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2649,7 +2649,7 @@
 			)
 		)
 		(property "Value" "436500201"
-			(at 45.72 123.19 0)
+			(at 137.16 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2659,7 +2659,7 @@
 			)
 		)
 		(property "Footprint" "436500201:CONN_SD-43650-001_02_MOL"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2671,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +2682,7 @@
 			)
 		)
 		(property "Description" "Conn Power HDR 2 POS 3mm Solder RA Thru-Hole 2 Terminal 1 Port Micro-Fit 3.0™ Tray"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2694,7 +2694,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,7 +2706,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +2718,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2730,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=eda"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,7 +2742,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,7 +2754,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=snap"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2766,7 +2766,7 @@
 			)
 		)
 		(property "MP" "436500201"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2778,7 +2778,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "436500201"
-			(at 54.61 130.81 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2810,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "J12")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2827,7 +2827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63659185-0597-49a1-8464-94800c4c2839")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 86.36 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2906,7 +2906,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2914,7 +2914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 132.08 0)
+		(at 157.48 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2924,8 +2924,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e77161-6a70-4b23-aa55-6d601f99e0e0")
-		(property "Reference" "#PWR025"
-			(at 66.04 138.43 0)
+		(property "Reference" "#PWR027"
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +2936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 137.16 0)
+			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +2947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 132.08 0)
+			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2958,7 +2958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 132.08 0)
+			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +2969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 132.08 0)
+			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,7 +2985,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3002,7 +3002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70ba08f7-c3f0-4c8a-8002-36ad58c0b48f")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 78.74 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3066,7 +3066,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3084,7 +3084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dc7879a-61a1-4739-a26f-537dcaa384b9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR023"
 			(at 67.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3144,7 +3144,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "#PWR02")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3152,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 115.57 0)
+		(at 157.48 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3162,8 +3162,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84104e57-50d9-4ead-9ca0-efbf21d7ffa7")
-		(property "Reference" "#PWR043"
-			(at 66.04 121.92 0)
+		(property "Reference" "#PWR025"
+			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +3174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 120.65 0)
+			(at 157.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,7 +3185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 115.57 0)
+			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 115.57 0)
+			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 115.57 0)
+			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,7 +3223,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "#PWR043")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3231,7 +3231,7 @@
 	)
 	(symbol
 		(lib_id "436500201:436500201")
-		(at 54.61 114.3 180)
+		(at 146.05 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3241,8 +3241,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93322cd1-56f9-4dd8-9245-2544e5901883")
-		(property "Reference" "J11"
-			(at 45.72 104.14 0)
+		(property "Reference" "J2"
+			(at 137.16 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3252,7 +3252,7 @@
 			)
 		)
 		(property "Value" "436500201"
-			(at 45.72 106.68 0)
+			(at 137.16 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3262,7 +3262,7 @@
 			)
 		)
 		(property "Footprint" "436500201:CONN_SD-43650-001_02_MOL"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3285,7 @@
 			)
 		)
 		(property "Description" "Conn Power HDR 2 POS 3mm Solder RA Thru-Hole 2 Terminal 1 Port Micro-Fit 3.0™ Tray"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3297,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +3309,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3333,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=eda"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +3357,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=snap"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,7 +3369,7 @@
 			)
 		)
 		(property "MP" "436500201"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3381,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3393,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "436500201"
-			(at 54.61 114.3 0)
+			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,7 +3413,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "J11")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3431,7 +3431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbbe8f7d-c245-4ee4-8847-8bfa658eacaa")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 69.85 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3495,7 +3495,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3503,7 +3503,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 66.04 127 0)
+		(at 157.48 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3513,8 +3513,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf7b674-8ef7-45f0-9ce8-b75b17e512be")
-		(property "Reference" "#PWR024"
-			(at 66.04 130.81 0)
+		(property "Reference" "#PWR026"
+			(at 157.48 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +3525,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 66.04 121.92 0)
+			(at 157.48 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3535,7 +3535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 127 0)
+			(at 157.48 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 127 0)
+			(at 157.48 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 66.04 127 0)
+			(at 157.48 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +3573,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3591,7 +3591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e42f44f3-21cb-41fc-b1e1-33637b7f479c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 49.53 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3652,7 +3652,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3670,7 +3670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc42679a-4143-4845-b54d-e77df051e29a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR024"
 			(at 85.09 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3731,7 +3731,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
-					(reference "#PWR042")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

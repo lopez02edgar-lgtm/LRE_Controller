@@ -2324,7 +2324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d798930-10e3-47a3-9311-69261db4cf66")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR017"
 			(at 71.12 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2385,7 +2385,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR051")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2403,7 +2403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd5cdc6-da15-4425-a58a-cce51bcd3108")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 93.98 98.9898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2519,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2536,7 +2536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15f2ce4f-2304-4360-b8d4-3f31b7cb9c26")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 58.42 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2598,7 +2598,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2616,7 +2616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6601e9-eded-4c49-aa68-3b9b46218b1d")
-		(property "Reference" "C24"
+		(property "Reference" "C12"
 			(at 85.09 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2680,7 +2680,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "C24")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2698,7 +2698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d2ba167-ef98-4341-a562-0cb1af181e97")
-		(property "Reference" "C26"
+		(property "Reference" "C11"
 			(at 75.438 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2762,7 +2762,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "C26")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2780,7 +2780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fbc3790-4fbf-41b9-94c6-54c9f37212bf")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 58.42 172.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2844,7 +2844,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2862,7 +2862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2115bdb4-0454-4e23-bd64-8d88ac773fcc")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 87.63 179.1402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2978,7 +2978,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2996,7 +2996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "237de8bf-bd49-4862-9067-040fbf4db71a")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 68.58 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3060,7 +3060,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3078,7 +3078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "551bb63c-e225-4603-912b-d877b7ed50ec")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR014"
 			(at 66.04 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3139,7 +3139,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR050")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3157,7 +3157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d59078-074f-487d-aac6-4f8673425c9d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR020"
 			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3217,7 +3217,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR014")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3235,7 +3235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76394cc6-f7d8-4e1f-af4c-5b67dc8e1b30")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR015"
 			(at 66.04 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3296,7 +3296,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR053")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3314,7 +3314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f329208-9838-4bc7-a977-9699831c6f9a")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 72.39 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3378,7 +3378,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3396,7 +3396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ff95385-86b6-4542-be18-8f4ada48aa52")
-		(property "Reference" "C25"
+		(property "Reference" "C10"
 			(at 62.23 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3460,7 +3460,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3477,7 +3477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1812d2c-56e8-4735-b49e-f3dd577e606c")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 73.66 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,7 +3539,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9a83448-916a-40b7-b518-913827c383cf")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR018"
 			(at 72.39 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3618,7 +3618,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR052")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3636,7 +3636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5a83d64-f967-493b-812c-e00047f7b39d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR021"
 			(at 78.74 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3697,7 +3697,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR049")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc306207-25f1-4837-bbb4-4275a689c4fe")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 72.39 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -3775,7 +3775,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df90456b-ebdc-46a3-b54f-ce41f421668c")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 78.74 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3857,7 +3857,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3875,7 +3875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee1da69e-d250-4e3f-8043-88de1b90a7bc")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR016"
 			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3936,7 +3936,7 @@
 		(instances
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/d792bc85-680a-4688-bc00-a30b1ff2ba64"
-					(reference "#PWR027")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
