@@ -3309,15 +3309,29 @@
 		)
 		(uuid "fcad965c-c476-4187-9fdb-0c95ebf450ec")
 	)
-	(label "Motor_IN"
+	(global_label "Motor_IN"
+		(shape input)
 		(at 300.99 160.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "abe54b32-82fc-4f4a-9c8c-8b5c2daa492f")
+		(uuid "2f54a62e-ae18-4efb-adb2-5730bef2f061")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 312.1394 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5033,7 +5047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:CHEMI-KE0"
+		(property "Footprint" "Library:CAP_EEFK_J16_PAN"
 			(at 113.3348 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5044,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1178.pdf"
 			(at 114.3 166.37 0)
 			(hide yes)
 			(show_name no)

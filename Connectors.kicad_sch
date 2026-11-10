@@ -2185,6 +2185,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 36.83) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3686858a-ceb7-4b17-b7f2-53ac1ca4c773")
+	)
+	(wire
+		(pts
 			(xy 91.44 57.15) (xy 90.17 57.15)
 		)
 		(stroke
@@ -2255,6 +2265,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 36.83) (xy 147.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fff98f-125f-4b25-b035-3c446dc21d38")
+	)
+	(wire
+		(pts
 			(xy 67.31 39.37) (xy 64.77 39.37)
 		)
 		(stroke
@@ -2282,6 +2302,16 @@
 			(type default)
 		)
 		(uuid "9819a55d-50a6-421f-963b-699aa688c000")
+	)
+	(wire
+		(pts
+			(xy 146.05 34.29) (xy 147.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b418839-1059-4c80-a976-bc061c39dc57")
 	)
 	(wire
 		(pts
@@ -2492,6 +2522,30 @@
 			(justify right bottom)
 		)
 		(uuid "2600932d-37af-4bf6-9aa4-a9cd7af1fd83")
+	)
+	(global_label "Motor_IN"
+		(shape input)
+		(at 147.32 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31edb939-5bfe-460c-b5f1-b756bc5b0c24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.4694 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "USB_D+"
 		(shape input)
@@ -3617,6 +3671,196 @@
 		)
 	)
 	(symbol
+		(lib_id "436500201:436500201")
+		(at 146.05 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68ca382-f02d-4637-9cd7-7a152421169f")
+		(property "Reference" "J11"
+			(at 137.16 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "436500201"
+			(at 137.16 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "436500201:CONN_SD-43650-001_02_MOL"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Conn Power HDR 2 POS 3mm Solder RA Thru-Hole 2 Terminal 1 Port Micro-Fit 3.0™ Tray"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Molex"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=eda"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/436500201/Molex/view-part/?ref=snap"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "436500201"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "436500201"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "48a70cdd-a27e-40d6-949c-160697fee300")
+		)
+		(pin "2"
+			(uuid "e03330c7-7ad2-4d01-9c9d-19e4970e0397")
+		)
+		(instances
+			(project "LRE_Controller"
+				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 66.04 0)
 		(mirror y)
@@ -3883,6 +4127,85 @@
 			(project "LRE_Controller"
 				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d37910a6-534a-4e30-aafb-b3c19d39b1a3")
+		(property "Reference" "#PWR066"
+			(at 147.32 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29e686c7-9ff6-472a-863c-116c383cba75")
+		)
+		(instances
+			(project "LRE_Controller"
+				(path "/b27bef7b-72d9-475e-9417-80b6d20be6a1/0c99fc0b-8a15-402e-a63e-71a482298903"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
