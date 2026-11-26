@@ -7,4 +7,5 @@
 	(lib (name "RF_module") (type "KiCad") (uri "${KIPRJMOD}/LIBS_LRE_Controller/RF_mod/RF_module.pretty") (options "") (descr ""))
 	(lib (name "My_RF_Module") (type "KiCad") (uri "${KIPRJMOD}/LIBS_LRE_Controller/RF_mod/My_RF_Module.pretty") (options "") (descr ""))
 	(lib (name "SMA") (type "KiCad") (uri "${KIPRJMOD}/LIBS_LRE_Controller/SMA_Connector/SMA.pretty") (options "") (descr ""))
+	(lib (name "Memory") (type "KiCad") (uri "${KIPRJMOD}/LIBS_LRE_Controller/Memory/Memory.pretty") (options "") (descr ""))
 )

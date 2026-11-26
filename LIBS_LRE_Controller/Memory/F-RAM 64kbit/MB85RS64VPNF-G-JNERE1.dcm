@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MB85RS64VPNF-G-JNERE1
+D 64Kbit 8K x 8 FRAM SPI interface
+K
+F http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS64V-DS501-00015-4v0-E.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -2053,10 +2053,6 @@
 		(uuid "f39da884-c42b-495c-95c1-af85138651b6")
 	)
 	(no_connect
-		(at 121.92 90.17)
-		(uuid "10560286-6ba9-4fba-b164-963df3036430")
-	)
-	(no_connect
 		(at 157.48 74.93)
 		(uuid "267a2466-e96b-4a07-9396-9395fd3d25fd")
 	)
@@ -2065,16 +2061,8 @@
 		(uuid "3174613f-6139-48b4-bf87-d77fea79dcad")
 	)
 	(no_connect
-		(at 121.92 80.01)
-		(uuid "3441c710-70de-46c1-839b-b33043f871c8")
-	)
-	(no_connect
 		(at 157.48 125.73)
 		(uuid "399f28c3-90f4-45b7-87c5-5cfca342d41c")
-	)
-	(no_connect
-		(at 121.92 82.55)
-		(uuid "3c5b736a-fb26-42e6-bc01-ad153b91a752")
 	)
 	(no_connect
 		(at 121.92 128.27)
@@ -2089,28 +2077,12 @@
 		(uuid "7fe56244-0495-4e69-8464-c903037982bc")
 	)
 	(no_connect
-		(at 121.92 92.71)
-		(uuid "967d297e-d20f-4e8d-9093-7a6bd36134a5")
-	)
-	(no_connect
 		(at 121.92 140.97)
 		(uuid "a0f0ce5f-580b-4d94-8da7-5cf83b23b4de")
 	)
 	(no_connect
 		(at 157.48 77.47)
 		(uuid "adc2537f-d3df-4fb1-aeda-ec777c6dd886")
-	)
-	(no_connect
-		(at 121.92 87.63)
-		(uuid "c051cc4e-51f7-4796-bbaf-970442dd41fb")
-	)
-	(no_connect
-		(at 121.92 95.25)
-		(uuid "e8227b46-4fa4-4efd-9d23-292131799df6")
-	)
-	(no_connect
-		(at 121.92 85.09)
-		(uuid "f101e27d-1bd7-4a7e-acef-c4cc1cd52372")
 	)
 	(wire
 		(pts
@@ -3060,6 +3032,54 @@
 			)
 		)
 	)
+	(global_label "Memory_CS_FRAM"
+		(shape input)
+		(at 121.92 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44ce9f17-a901-47aa-9217-d1db3e5c5f58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.4854 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Memory_CS_FLASH"
+		(shape input)
+		(at 121.92 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b5282d8-9fa0-4b81-9519-94f6c38db30c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6387 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape input)
 		(at 121.92 148.59 180)
@@ -3228,6 +3248,30 @@
 			)
 		)
 	)
+	(global_label "Memory_SCK"
+		(shape input)
+		(at 121.92 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "760193fa-00c5-4c0c-8c02-e1c92bb1451e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.0816 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RF_MOD_BUSY"
 		(shape input)
 		(at 121.92 100.33 180)
@@ -3265,6 +3309,30 @@
 		(uuid "90c6540e-d385-495e-97ea-d165c6e01573")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.7663 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Memory_MOSI"
+		(shape input)
+		(at 121.92 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99211fb5-b29c-4522-88d4-a4f49224d339")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.2349 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3396,6 +3464,30 @@
 			)
 		)
 	)
+	(global_label "Memory_HOLD_FLASH"
+		(shape input)
+		(at 121.92 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9d577e1-eb9b-4881-aa33-8fb2ec339b2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.1591 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Valve3"
 		(shape input)
 		(at 121.92 115.57 180)
@@ -3468,6 +3560,30 @@
 			)
 		)
 	)
+	(global_label "Memory_HOLD_FRAM"
+		(shape input)
+		(at 121.92 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb1b5869-04f2-448c-a778-4bd37f17489b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.0058 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RF_MOD_TXEN"
 		(shape input)
 		(at 121.92 105.41 180)
@@ -3481,6 +3597,30 @@
 		(uuid "ed56bb0b-7314-43ac-8cb8-40937257396e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.9325 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Memory_MISO"
+		(shape input)
+		(at 121.92 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eea62c94-a8a5-4b5a-bb7e-e088e0bdb594")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.2349 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
