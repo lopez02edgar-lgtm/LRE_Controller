@@ -2053,10 +2053,6 @@
 		(uuid "f39da884-c42b-495c-95c1-af85138651b6")
 	)
 	(no_connect
-		(at 157.48 74.93)
-		(uuid "267a2466-e96b-4a07-9396-9395fd3d25fd")
-	)
-	(no_connect
 		(at 157.48 128.27)
 		(uuid "3174613f-6139-48b4-bf87-d77fea79dcad")
 	)
@@ -2069,20 +2065,12 @@
 		(uuid "404aaf36-8cc5-48aa-80b6-cab26cae5222")
 	)
 	(no_connect
-		(at 121.92 77.47)
-		(uuid "74f4559d-8e12-4895-be2b-1201bd361f8a")
-	)
-	(no_connect
 		(at 121.92 138.43)
 		(uuid "7fe56244-0495-4e69-8464-c903037982bc")
 	)
 	(no_connect
 		(at 121.92 140.97)
 		(uuid "a0f0ce5f-580b-4d94-8da7-5cf83b23b4de")
-	)
-	(no_connect
-		(at 157.48 77.47)
-		(uuid "adc2537f-d3df-4fb1-aeda-ec777c6dd886")
 	)
 	(wire
 		(pts
@@ -3104,6 +3092,30 @@
 			)
 		)
 	)
+	(global_label "AUX_3"
+		(shape input)
+		(at 121.92 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51191076-8100-4c92-b66c-e9e9766ffc3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.1291 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RF_MOD_DIO1"
 		(shape input)
 		(at 121.92 102.87 180)
@@ -3341,6 +3353,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "AUX_2"
+		(shape input)
+		(at 157.48 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99ec1252-581b-4eed-95c9-a24e47981fae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.2709 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3653,6 +3689,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "AUX_1"
+		(shape input)
+		(at 157.48 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7a50f5c-c30a-45d8-9780-8e51b66221bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.2709 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
