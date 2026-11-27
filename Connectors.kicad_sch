@@ -2737,6 +2737,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 82.55) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e80ceb-ee91-45db-a674-4da9e395f9b4")
+	)
+	(wire
+		(pts
 			(xy 176.53 69.85) (xy 176.53 71.12)
 		)
 		(stroke
@@ -3137,16 +3147,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 86.36) (xy 176.53 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e25b38f1-d640-47b1-aa0e-61ffef36cc2e")
-	)
-	(wire
-		(pts
 			(xy 41.91 67.31) (xy 41.91 69.85)
 		)
 		(stroke
@@ -3197,7 +3197,7 @@
 	)
 	(global_label "Thermocouple_Cold"
 		(shape input)
-		(at 176.53 83.82 0)
+		(at 176.53 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3205,9 +3205,9 @@
 			)
 			(justify left)
 		)
-		(uuid "008d99bf-dd53-4675-97b3-796995e3631c")
+		(uuid "08664e81-947f-4751-91b0-5bb87e9ee3fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8391 83.82 0)
+			(at 197.8391 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +3245,7 @@
 	)
 	(global_label "Thermocouple_Hot"
 		(shape input)
-		(at 176.53 67.31 0)
+		(at 176.53 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3253,9 +3253,9 @@
 			)
 			(justify left)
 		)
-		(uuid "7c77c657-48b2-42cb-ace5-7aa8157d177c")
+		(uuid "6e557289-100a-4c8c-8e58-cbf2100bc8a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8111 67.31 0)
+			(at 196.8111 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,7 +5024,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 87.63 0)
+		(at 176.53 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5033,9 +5033,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b3f4e6d9-d782-4e14-8bf7-4e2fc8a7a18c")
+		(uuid "ac987df5-7e93-45f1-abae-1eb7bdf869ef")
 		(property "Reference" "#PWR077"
-			(at 176.53 93.98 0)
+			(at 176.53 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,7 +5046,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 92.71 0)
+			(at 176.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +5057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 87.63 0)
+			(at 176.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5068,7 +5068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 87.63 0)
+			(at 176.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 87.63 0)
+			(at 176.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5090,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f41df97-d229-44c2-857b-ccc193859f24")
+			(uuid "57ac59c5-8f5a-4260-a6f1-ac4e33a6be14")
 		)
 		(instances
 			(project "LRE_Controller"

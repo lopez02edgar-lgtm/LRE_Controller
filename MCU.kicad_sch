@@ -2888,6 +2888,30 @@
 			)
 		)
 	)
+	(global_label "TCH"
+		(shape input)
+		(at 157.48 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23de2c14-3377-4e4a-ad59-5a22a17493d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.0333 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Valve5"
 		(shape input)
 		(at 121.92 120.65 180)
@@ -2981,30 +3005,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "TCH"
-		(shape input)
-		(at 157.48 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38fe7ba0-8158-43d7-ba3f-244a1dbba9d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0333 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -3536,6 +3536,30 @@
 			)
 		)
 	)
+	(global_label "TCC"
+		(shape input)
+		(at 157.48 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6e43985-90a2-47ad-a789-b611ca84295d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.9728 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RF_MOD_RXEN"
 		(shape input)
 		(at 121.92 107.95 180)
@@ -3629,30 +3653,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "TCC"
-		(shape input)
-		(at 157.48 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f62f5b4a-800b-4683-9d35-099676288ad8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.9728 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
